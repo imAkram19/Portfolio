@@ -343,7 +343,7 @@ const Hero = ({ startAnimation = true }) => {
                             className="font-['Anton'] text-[16vw] sm:text-[12vw] lg:text-[12vw] tracking-tighter text-transparent uppercase leading-[0.9] whitespace-nowrap flex justify-center"
                             style={{ WebkitTextStroke: '2px #333333' }}
                         >
-                            {"& FREELANCER".split('').map((char, index) => (
+                            {"& IMRE TRAINED".split('').map((char, index) => (
                                 <motion.span
                                     key={index}
                                     initial={{ y: "100%" }}
