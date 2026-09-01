@@ -60,7 +60,7 @@ const SelectedWork = () => {
             bgColor: '#f5f1ed',
             bgPattern: 'linear-gradient(to right, rgba(16, 137, 150, 0.15), rgba(16, 137, 150, 0.15) 5px, transparent 5px, transparent)',
             bgSize: '20px 100%',
-            liveUrl: 'https://tinylink-azhar.vercel.app/',
+            liveUrl: 'https://tinylink-akram.vercel.app/',
             status: 'live'
         },
         {

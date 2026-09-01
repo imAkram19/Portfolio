@@ -315,7 +315,7 @@ const Hero = ({ startAnimation = true }) => {
                         transition={{ duration: 0.5 }}
                         className="mb-6 bg-gradient-to-br from-white/80 to-white/20 backdrop-blur-md border border-[#333333]/10 px-6 py-2 rounded-full shadow-sm"
                     >
-                        <span className="text-[#333333] font-medium text-xs sm:text-base tracking-wide">Hi, My Name is Mohammad Azhar and I'am a</span>
+                        <span className="text-[#333333] font-medium text-xs sm:text-base tracking-wide">Hi, My Name is Mohammad Akram and I'am a</span>
                     </motion.div>
 
                     <div className="overflow-hidden px-4 pb-2">

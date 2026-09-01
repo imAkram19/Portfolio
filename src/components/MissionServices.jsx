@@ -141,12 +141,12 @@ const MissionServices = () => {
         }
     ];
 
-    const email = 'mohammad.azhar0807@gmail.com';
+    const email = 'iamakram1902@gmail.com';
     const socialLinks = [
-        { icon: Linkedin, url: 'https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHPXkSOFD4gjAAAAZrUCMlo2s-nLzw1Er8XAkTC7a_RQydh2wU3GhDkUnmjl3jr_TKqlhm8F0-MtbDvrKmdaV5aJiWIZxZVNViObBcO8QASp283G_RS35T78ZCrem-SIII9BCQ=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmohammad-azhar-6bb804251%2F%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app', label: 'LinkedIn' },
-        { icon: Github, url: 'https://github.com/I-am-Azhar', label: 'GitHub' },
+        { icon: Linkedin, url: 'https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHPXkSOFD4gjAAAAZrUCMlo2s-nLzw1Er8XAkTC7a_RQydh2wU3GhDkUnmjl3jr_TKqlhm8F0-MtbDvrKmdaV5aJiWIZxZVNViObBcO8QASp283G_RS35T78ZCrem-SIII9BCQ=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmohammad-akram%2F%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app', label: 'LinkedIn' },
+        { icon: Github, url: 'https://github.com/imAkram19', label: 'GitHub' },
         { icon: Mail, url: `mailto:${email}`, label: 'Email' },
-        { icon: Globe, url: 'https://www.iamazhar.live/', label: 'Portfolio' }
+        { icon: Globe, url: 'https://www.iamakram.live/', label: 'Portfolio' }
     ];
 
     return (
