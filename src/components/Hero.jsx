@@ -4,7 +4,7 @@ import { FiArrowUpRight, FiDownload } from 'react-icons/fi';
 import { SiNextdotjs, SiReact, SiNodedotjs, SiCanva } from 'react-icons/si';
 import { DiIllustrator, DiPhotoshop } from 'react-icons/di';
 
-const PHONE_NUMBER = '+919908405786';
+const PHONE_NUMBER = '+918686080807';
 const RESUME_PATH = "/resume.pdf";
 
 const GlassIcon = ({ Icon, imgSrc, initialX, initialY, delay, color, className, startAnimation = true }) => {
@@ -371,7 +371,7 @@ const Hero = ({ startAnimation = true }) => {
                         animate={startAnimation ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                         transition={{ duration: 0.5, delay: 0.4 }}
                         className="bg-[#333333] text-[#fbf9ef] border-2 border-[#333333] px-6 py-3 text-base sm:px-8 sm:py-4 sm:text-lg rounded-full font-medium hover:bg-[#fbf9ef] hover:text-[#333333] hover:border-[#333333] transition-all duration-300 cursor-pointer w-auto text-center min-w-[140px] sm:min-w-[200px]"
-                        aria-label="Call me at +91 9908405786"
+                        aria-label="Call me at +91 8686080807"
                     >
                         Contact Me
                     </motion.a>
