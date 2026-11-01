@@ -1,32 +1,30 @@
-import React, { useState, useEffect } from 'react';
-import { AnimatePresence } from 'framer-motion';
-import { Analytics } from "@vercel/analytics/react"
-import Hero from './components/Hero'
-import Preloader from './components/Preloader';
-
-import Contact from './components/Contact';
-import MissionServices from './components/MissionServices';
-import SelectedWork from './components/SelectedWork';
-import BackgroundGrid from './components/BackgroundGrid';
-
-function App() {
-  const [isLoading, setIsLoading] = useState(true);
-
+import { MotionConfig } from "framer-motion";
+import { SmoothScroll, Welcome } from "./components/PageMotion";
+import Hero from "./components/Hero";
+import MissionServices from "./components/MissionServices";
+import SelectedWork from "./components/SelectedWork";
+import Contact from "./components/Contact";
+import { Analytics } from "@vercel/analytics/react";
+export default function App() {
   return (
-    <div className="h-screen overflow-y-scroll snap-container bg-[#fbf9ef] relative">
-      <AnimatePresence mode="wait">
-        {isLoading && <Preloader onComplete={() => setIsLoading(false)} />}
-      </AnimatePresence>
-
-      <BackgroundGrid className="fixed inset-0 z-0 pointer-events-none" />
-      <Hero startAnimation={!isLoading} />
-      <MissionServices />
-
-      <SelectedWork />
-      <Contact />
+    <MotionConfig reducedMotion="user">
+      <SmoothScroll />
+      <Welcome />
+      <a className="skip-link" href="#skills">
+        Skip to content
+      </a>
+      <Hero />
+      <main>
+        <MissionServices />
+        <SelectedWork />
+        <Contact />
+      </main>
+      <footer>
+        <a href="#home">Akram</a>
+        <span>Web developer & freelancer</span>
+        <a href="#home">Back to top ↑</a>
+      </footer>
       <Analytics />
-    </div>
+    </MotionConfig>
   );
 }
-
-export default App;
